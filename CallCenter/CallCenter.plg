@@ -1,0 +1,69 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CallCenter - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP1BE.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Release/" /Fp"Release/CallCenter.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\PSystem\CallCenter\SystemKernel.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP1BE.tmp" 
+Creating temporary file "C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP1BF.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/CallCenter.pdb" /machine:I386 /out:"Release/CallCenter.exe" 
+.\Release\CallCenter.obj
+.\Release\ConnectionServer.obj
+.\Release\RMOSession.obj
+.\Release\RMOWorkSet.obj
+.\Release\ServiceGroup.obj
+.\Release\SLWorkSet.obj
+.\Release\StdAfx.obj
+.\Release\SysOut.obj
+.\Release\SystemKernel.obj
+.\Release\SystemMessageQueueWithTimer.obj
+.\Release\SystemObject.obj
+.\Release\TBinaryData.obj
+.\Release\Thread.obj
+.\Release\TUIList.obj
+.\Release\TZSSString.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP1BF.tmp"
+<h3>Output Window</h3>
+Compiling...
+SystemKernel.cpp
+F:\PSystem\CallCenter\SLWorkSet.h(56) : warning C4018: '<' : signed/unsigned mismatch
+F:\PSystem\CallCenter\SystemKernel.cpp(239) : warning C4018: '<' : signed/unsigned mismatch
+Linking...
+Creating temporary file "C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP1C1.tmp" with contents
+[
+/nologo /o"Release/CallCenter.bsc" 
+.\Release\StdAfx.sbr
+.\Release\CallCenter.sbr
+.\Release\ConnectionServer.sbr
+.\Release\RMOSession.sbr
+.\Release\RMOWorkSet.sbr
+.\Release\ServiceGroup.sbr
+.\Release\SLWorkSet.sbr
+.\Release\SysOut.sbr
+.\Release\SystemKernel.sbr
+.\Release\SystemMessageQueueWithTimer.sbr
+.\Release\SystemObject.sbr
+.\Release\TBinaryData.sbr
+.\Release\Thread.sbr
+.\Release\TUIList.sbr
+.\Release\TZSSString.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP1C1.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+CallCenter.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

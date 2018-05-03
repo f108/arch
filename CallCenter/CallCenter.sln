@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AdmCom", "AdmCom\AdmCom.vcxproj", "{637298A5-4B90-4926-9CAC-7EB97E11BD6E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CallCenter", "CallCenter.vcxproj", "{FDE51484-AD34-421D-B691-DA6F8ED12A57}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RMO", "RMO\RMO.vcxproj", "{FB464DF2-F8B6-4982-8DE4-FFAE415B0EEF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RmoKbdHook", "RmoKbdHook\RmoKbdHook.vcxproj", "{4E01623A-3C86-4341-AF45-5C1D780F2873}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{637298A5-4B90-4926-9CAC-7EB97E11BD6E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{637298A5-4B90-4926-9CAC-7EB97E11BD6E}.Debug|Win32.Build.0 = Debug|Win32
+		{637298A5-4B90-4926-9CAC-7EB97E11BD6E}.Release|Win32.ActiveCfg = Release|Win32
+		{637298A5-4B90-4926-9CAC-7EB97E11BD6E}.Release|Win32.Build.0 = Release|Win32
+		{FDE51484-AD34-421D-B691-DA6F8ED12A57}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FDE51484-AD34-421D-B691-DA6F8ED12A57}.Debug|Win32.Build.0 = Debug|Win32
+		{FDE51484-AD34-421D-B691-DA6F8ED12A57}.Release|Win32.ActiveCfg = Release|Win32
+		{FDE51484-AD34-421D-B691-DA6F8ED12A57}.Release|Win32.Build.0 = Release|Win32
+		{FB464DF2-F8B6-4982-8DE4-FFAE415B0EEF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FB464DF2-F8B6-4982-8DE4-FFAE415B0EEF}.Debug|Win32.Build.0 = Debug|Win32
+		{FB464DF2-F8B6-4982-8DE4-FFAE415B0EEF}.Release|Win32.ActiveCfg = Release|Win32
+		{FB464DF2-F8B6-4982-8DE4-FFAE415B0EEF}.Release|Win32.Build.0 = Release|Win32
+		{4E01623A-3C86-4341-AF45-5C1D780F2873}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4E01623A-3C86-4341-AF45-5C1D780F2873}.Debug|Win32.Build.0 = Debug|Win32
+		{4E01623A-3C86-4341-AF45-5C1D780F2873}.Release|Win32.ActiveCfg = Release|Win32
+		{4E01623A-3C86-4341-AF45-5C1D780F2873}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5497845C-6B4A-4825-BC0B-46EF11C91D50}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,35 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: RmoKbdHook - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSPEA.tmp" with contents
+[
+/nologo /MT /W3 /GX /O1 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "RMOKBDHOOK_EXPORTS" /Fp"Release/RmoKbdHook.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\PSystem\CallCenter\RmoKbdHook\RmoKbdHook.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSPEA.tmp" 
+Creating temporary file "C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSPEB.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/RmoKbdHook.pdb" /map:"Release/RmoKbdHook.map" /machine:I386 /out:"Release/RmoKbdHook.dll" /implib:"Release/RmoKbdHook.lib" 
+.\Release\RmoKbdHook.obj
+.\Release\StdAfx.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\9335~1\LOCALS~1\Temp\RSPEB.tmp"
+<h3>Output Window</h3>
+Compiling...
+RmoKbdHook.cpp
+Linking...
+   Creating library Release/RmoKbdHook.lib and object Release/RmoKbdHook.exp
+LINK : warning LNK4039: section ".KBDHOOKDATA" specified with /SECTION option does not exist
+
+
+
+<h3>Results</h3>
+RmoKbdHook.dll - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

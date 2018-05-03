@@ -1,0 +1,7 @@
+﻿  ClientNamedPipe.cpp
+c:\users\smith\projects\callcenter\testclientpipe\clientnamedpipe.cpp(18): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: see declaration of 'strcpy'
+c:\users\smith\projects\callcenter\testclientpipe\clientnamedpipe.cpp(43): warning C4101: 'cbw': unreferenced local variable
+c:\users\smith\projects\callcenter\testclientpipe\clientnamedpipe.cpp(43): warning C4101: 'RES': unreferenced local variable
+TBinaryData.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  AdmCom.vcxproj -> C:\Users\smith\Projects\CallCenter\AdmCom\.\Debug\AdmCom.exe

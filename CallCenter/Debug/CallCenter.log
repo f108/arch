@@ -1,0 +1,4 @@
+﻿  CallCenter.cpp
+c:\users\smith\projects\callcenter\slworkset.h(56): warning C4018: '<': signed/unsigned mismatch
+CallCenter.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  CallCenter.vcxproj -> C:\Users\smith\Projects\CallCenter\.\Debug\CallCenter.exe

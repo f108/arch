@@ -1,0 +1,394 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\AdmCom.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\AdmCom.ico"
+IDI_ICON1               ICON    DISCARDABLE     "res\\icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SERVICEGROUPSDLG DIALOG DISCARDABLE  0, 0, 329, 162
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Группы обслуживания"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Баннер группы",IDC_STATIC1,106,21,52,8
+    EDITTEXT        IDC_EDIT1,162,18,81,14,ES_AUTOHSCROLL
+    LISTBOX         IDC_LIST1,7,7,88,72,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Описание",IDC_STATIC2,106,41,34,8
+    EDITTEXT        IDC_EDIT2,145,39,170,14,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN
+    COMBOBOX        IDC_COMBO1,222,66,94,78,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Метод выбора",IDC_STATIC3,222,56,50,8
+    GROUPBOX        "",IDC_STATIC,99,7,223,148
+    LISTBOX         IDC_LIST2,221,92,95,57,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Порядок выбора РМО",IDC_STATIC4,222,82,93,10
+    PUSHBUTTON      "Новый",IDC_BUTTON2,40,105,50,13
+    PUSHBUTTON      "Удалить",IDC_BUTTON3,7,85,41,13
+    PUSHBUTTON      "Добавить",IDC_BUTTON4,55,85,40,13
+    PUSHBUTTON      "Цвет",IDC_BUTTON5,251,19,26,12,NOT WS_VISIBLE
+    LTEXT           "Категория вызова",IDC_STATIC5,106,56,64,8
+    COMBOBOX        IDC_COMBO3,106,66,100,64,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "Blink",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    284,21,31,10
+    CONTROL         "Задействовать очередь",IDC_CHECK2,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,106,87,97,10
+    CONTROL         "Check3",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,106,118,10,10
+    LTEXT           "Не использовать очередь, если в системе осталось",
+                    IDC_STATIC6,122,119,93,16
+    LTEXT           "и менее операторов",IDC_STATIC7,141,138,70,8
+    CONTROL         "Spin1",IDC_SPIN1,"msctls_updown32",UDS_ARROWKEYS,127,
+                    138,10,11
+    EDITTEXT        IDC_EDIT3,110,136,16,14,ES_AUTOHSCROLL
+    LTEXT           "вызовов",IDC_STATIC8,158,102,30,8
+    CONTROL         "Spin1",IDC_SPIN2,"msctls_updown32",UDS_ARROWKEYS,142,
+                    102,9,11
+    EDITTEXT        IDC_CALLQUEUECNT,124,100,16,14,ES_AUTOHSCROLL
+    LTEXT           "на",IDC_STATIC9,107,102,9,8
+END
+
+IDD_RMOLISTDLG DIALOG DISCARDABLE  0, 0, 370, 162
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "РМО"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT1,176,19,94,14,ES_AUTOHSCROLL
+    LISTBOX         IDC_LIST1,7,7,98,105,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Имя машины",IDC_STATIC1,124,20,46,8
+    LTEXT           "Описание",IDC_STATIC2,123,40,34,8
+    EDITTEXT        IDC_EDIT2,165,39,190,30,ES_MULTILINE | ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO1,169,76,68,108,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LISTBOX         IDC_LIST2,179,96,58,51,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Категория",IDC_STATIC3,124,78,36,8
+    LTEXT           "Участник групп\n обслуживания",IDC_STATIC4,121,96,55,18
+    GROUPBOX        "",IDC_STATIC,114,7,249,149
+    CONTROL         "Отключить доступ",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,277,22,80,10
+    CONTROL         "Имеет доступ к установкам пользователей",IDC_CHECK2,
+                    "Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,247,
+                    76,111,20
+    CONTROL         "Имеет доступ к установкам групп обслуживания",
+                    IDC_CHECK3,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | 
+                    WS_TABSTOP,247,97,109,16
+    CONTROL         "Имеет доступ к установкам hardware",IDC_CHECK4,"Button",
+                    BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,247,116,112,
+                    17
+    PUSHBUTTON      "Новый",IDC_BUTTON1,57,134,50,13
+    PUSHBUTTON      "Удалить",IDC_BUTTON2,12,115,41,13
+    PUSHBUTTON      "Добавить",IDC_BUTTON3,60,115,41,13
+    PUSHBUTTON      "Изменить",IDC_BUTTON4,123,116,50,13
+    LTEXT           "Номер гарнитуры",IDC_STATIC5,248,137,61,8
+    COMBOBOX        IDC_COMBO2,319,135,36,112,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LISTBOX         IDC_LIST3,243,81,62,66,LBS_NOINTEGRALHEIGHT | NOT 
+                    WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_SLDLG DIALOG DISCARDABLE  0, 0, 296, 175
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Входящие линии"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_COMBO1,145,14,75,97,CBS_DROPDOWNLIST | NOT 
+                    WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT1,222,14,40,13,ES_AUTOHSCROLL | NOT WS_VISIBLE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_SERVICEGROUPSDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 322
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 155
+    END
+
+    IDD_RMOLISTDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 363
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 155
+    END
+
+    IDD_SLDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 289
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_RMOLISTDLG DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 9, 0
+0xefce, 0xf0e5, 0xf2e0, 0xf0ee, "\000" 
+    IDC_COMBO1, 0x403, 11, 0
+0xf3d1, 0xe5ef, 0xe2f0, 0xe7e8, 0xf0ee, "\000" 
+    IDC_COMBO1, 0x403, 14, 0
+0xe4c0, 0xe8ec, 0xe8ed, 0xf2f1, 0xe0f0, 0xeef2, 0x00f0, 
+    IDC_COMBO2, 0x403, 2, 0
+0x0030, 
+    IDC_COMBO2, 0x403, 2, 0
+0x0031, 
+    IDC_COMBO2, 0x403, 2, 0
+0x0032, 
+    IDC_COMBO2, 0x403, 2, 0
+0x0033, 
+    IDC_COMBO2, 0x403, 2, 0
+0x0034, 
+    IDC_COMBO2, 0x403, 2, 0
+0x0035, 
+    IDC_COMBO2, 0x403, 2, 0
+0x0036, 
+    IDC_COMBO2, 0x403, 2, 0
+0x0037, 
+    IDC_COMBO2, 0x403, 2, 0
+0x0038, 
+    IDC_COMBO2, 0x403, 2, 0
+0x0039, 
+    IDC_COMBO2, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_COMBO2, 0x403, 3, 0
+0x3131, "\000" 
+    0
+END
+
+IDD_SERVICEGROUPSDLG DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 12, 0
+0xe8d6, 0xebea, 0xf7e8, 0xf1e5, 0xe8ea, 0x00e9, 
+    IDC_COMBO1, 0x403, 17, 0
+0xeecf, 0xebf1, 0xe4e5, 0xe2ee, 0xf2e0, 0xebe5, 0xedfc, 0xe9fb, "\000" 
+    IDC_COMBO1, 0x403, 10, 0
+0xebd1, 0xf7f3, 0xe9e0, 0xfbed, 0x00e9, 
+    IDC_COMBO3, 0x403, 8, 0
+0xe1ce, 0xf7fb, 0xfbed, 0x00e9, 
+    IDC_COMBO3, 0x403, 8, 0
+0xf0d1, 0xf7ee, 0xfbed, 0x00e9, 
+    IDC_COMBO3, 0x403, 11, 0
+0xeadd, 0xf2f1, 0xe5f0, 0xeded, 0xe9fb, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_DLGCAPTION          "Настройки коммутатора телефонных линий"
+END
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ADMCOM_DIALOG DIALOGEX 0, 0, 320, 200
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "AdmCom"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,260,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,260,23,50,14
+    LTEXT           "TODO: Place dialog controls here.",IDC_STATIC,50,90,200,
+                    8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ADMCOM_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "AdmCom MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "AdmCom\0"
+            VALUE "LegalCopyright", "Copyright (C) 2002\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "AdmCom.EXE\0"
+            VALUE "ProductName", "AdmCom Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\AdmCom.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
